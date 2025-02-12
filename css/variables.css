@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #24416b;
+  --color-secondary: #719fe0;
+  --color-tertiary: #185bb9;
+
+  --background-color: #f8fafc;
+  --text-color: #101419;
+  --text-color-secondary: #f8fafc;
+
+  --font-family: "Poppins", sans-serif;
+  --font-family-secondary: "Raleway", sans-serif;
+
+  --font-h1: 2rem;
+  --font-h2: 1.5rem;
+  --font-h3: 1.25rem;
+  --font-p: 1rem;
+}
