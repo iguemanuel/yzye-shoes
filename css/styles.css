@@ -51,7 +51,8 @@ nav {
       transition: all 0.3s ease;
 
       &:hover {
-        color: #185bb9;
+        color: #ffffff;
+        scale: 1.1;
       }
     }
   }
@@ -111,6 +112,38 @@ nav {
       height: 100%;
     }
   }
+
+  .button-mobile,
+  .button-desktop {
+    display: flex;
+    justify-items: left;
+
+    button {
+      background-color: var(--color-tertiary);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #0f3d7e;
+      }
+    }
+  }
+
+  .button-mobile {
+    display: none;
+  }
+}
+
+main h1 {
+  font-size: var(--font-h1);
+  font-family: var(--font-family-secondary);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .container-cards {
@@ -209,8 +242,22 @@ nav {
       margin-bottom: 1rem;
       padding: 0;
 
-      span {
+      .button-section span {
         font-size: 1.2rem;
+      }
+    }
+
+    .button-desktop {
+      display: none;
+    }
+
+    .button-mobile {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+      button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
       }
     }
   }
