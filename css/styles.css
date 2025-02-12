@@ -31,6 +31,11 @@ nav {
     font-family: var(--font-family-secondary);
     font-size: var(--font-h1);
     font-weight: 600;
+
+    span {
+      color: var(--color-tertiary);
+      font-weight: 800;
+    }
   }
 
   ul {
@@ -137,13 +142,13 @@ nav {
     }
 
     h2 {
-      font-size: 1.6rem;
+      font-size: var(--font-h2);
       font-weight: bold;
       margin: 1rem 0;
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: var(--font-p);
       margin: 1rem 0;
     }
 
